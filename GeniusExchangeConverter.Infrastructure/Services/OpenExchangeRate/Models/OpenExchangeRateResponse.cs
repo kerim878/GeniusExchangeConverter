@@ -4,5 +4,5 @@ public class OpenExchangeRateResponse
 {
     public long Timestamp { get; set; }
     public string Base { get; set; }
-    public Dictionary<string, decimal> Rates { get; set; }
+    public Dictionary<string, decimal> Rates { get; set; } = new();
 }

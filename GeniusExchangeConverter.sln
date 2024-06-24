@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeniusExchangeConverter.Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeniusExchangeConverter.Application", "GeniusExchangeConverter.Application\GeniusExchangeConverter.Application.csproj", "{DB337B0F-B934-4913-A951-6BC5413F111A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeniusExchangeConverter.Infrastructure.Tests", "GeniusExchangeConverter.Infrastructure.Tests\GeniusExchangeConverter.Infrastructure.Tests.csproj", "{BCF2BE67-B97E-409A-A2B5-0201C5161DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DB337B0F-B934-4913-A951-6BC5413F111A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB337B0F-B934-4913-A951-6BC5413F111A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB337B0F-B934-4913-A951-6BC5413F111A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF2BE67-B97E-409A-A2B5-0201C5161DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF2BE67-B97E-409A-A2B5-0201C5161DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF2BE67-B97E-409A-A2B5-0201C5161DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF2BE67-B97E-409A-A2B5-0201C5161DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
